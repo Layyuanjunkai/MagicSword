@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "magicsword",
+			"Path": "..\\Source\\magicsword.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "magicswordEditor",
+			"Path": "..\\Source\\magicswordEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
