@@ -13,6 +13,11 @@ AMagicCharacterBase::AMagicCharacterBase()
 	Weapon ->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 }
 
+UAbilitySystemComponent* AMagicCharacterBase::GetAbilitySystemComponent() const
+{
+	return AbilitySystemComponent;
+}
+
 // Called when the game starts or when spawned
 void AMagicCharacterBase::BeginPlay()
 {

@@ -4,3 +4,4 @@
 
 #include "CoreMinimal.h"
 
+#define CUSTOM_DEP_RED 250
